@@ -1,0 +1,9 @@
+#sidebar{
+  box-sizing: border-box;
+  background-color: #000;
+  width: 200px;
+  height: 200px;
+}
+#main{
+  background-color: #ff0072;
+}

@@ -64,30 +64,60 @@ body {
 
 #header{
   background-image: url("ToG.jpg");
-
   height: 100vh;
   margin: 25px 5vw 0vw 5vw;
   background-size: cover;
   background-position: center;
 }
-#description{
-  position: absolute;
-  top: 15vh;
-  left: 25vw;
-  width: 45vw;
-  height: 30vh;
-  color: white;
-  font-size: 20px;
-  padding: 50px;
-}
 #information{
-  position: inline-block;
+  display: block;
+  padding: 50px;
   color: white;
   font-size: 20px;
-  padding: 50px;
+}
+H1 { text-align: center }
+ #cr{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 280px;
+  height: auto;
+}
+#crescent{
+  margin: 50px 10vw 50px 10vw;
 }
 
 #bottomNav{
   color: white;
   padding: 10px, 0vw, 10px, 10vw;
+}
+#aboutInfo{
+  margin-top: 10vh;
+  margin-left: 10vh;
+}
+#description{
+  display: inline-block;
+  width: 47vw;
+  height: 30vh;
+  color: white;
+  font-size: 20px;
+  padding: 50px;
+}
+#links{
+  display: inline-block;
+  width: 30vw;
+  height: 30vh;
+  line-height: 50px;
+}
+#links a{
+  text-decoration: none;
+  padding: 12px 17px 12px 17px;
+  color: white;
+  text-align: center;
+  background-color: rgba(74, 103, 150, 0.3);
+}
+
+#links a:hover{
+  background-color: white;
+  color: rgba(120, 120, 120);
 }
